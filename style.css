@@ -1,14 +1,81 @@
 *{
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-p {
-  font-size: 30px;
-   color : bl ;
+
+body{
+	background-color:#EFEFEF;
 }
 
+p {
+  font-size: 20px;
+   color : bl ;
+}
+h1, h2, h3 {
+	text-align: center;
+}
 #red_header{
   color:red ;
 }
-.alert{
-	color: greenyellow;
+#alerts{
+	background-color:#EFEFEF;
+	color: black;
+	text-align:center;
+	margin:10%;
+}
+
+#lines ul{
+	list-style:none;
+	text-align: center;
+	padding: 2em;
+
+}
+
+#lines li{
+	display:inline-block;
+	margin-left: 1.5em;
+	
+}
+
+.icon_circle {
+	width:100px;
+	height:100px;
+	border-radius: 50px;
+	font-size:20px;
+	color:white;
+	line-height:100px;
+	text-align: center;
+	background:black;
+
+}
+#trip_title:hover {
+	color:#ccc;
+	text-decoration:none;
+	background:#333
+	}
+.icon_circle:hover {
+	color:#ccc;
+	text-decoration:none;
+	background:#333
+	}
+
+.pre_away{
+	text-align: center;
+	color:black;
+}
+
+#red_icon{
+background-color: red;
+}
+
+#green_icon{
+	background-color: green;
+}
+
+#orange_icon{
+	background-color: orange;
+}
+
+svg {
+	margin:auto;
+	display: block;
 }
